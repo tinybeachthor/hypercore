@@ -6,5 +6,9 @@ mkShell {
   buildInputs = [
     git
     hub
+
+    rustc
+    cargo
+    rustfmt
   ];
 }
